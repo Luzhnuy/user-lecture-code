@@ -6,6 +6,7 @@ def check_email(email, all_users_data):
             return True
     return False
 
+# functions which used for adding users to user.json
 def user_add():
     user = {
         "first_name": input("First Name: "),
